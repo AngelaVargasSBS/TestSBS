@@ -1,0 +1,32 @@
+server:
+  port: ${SERVER_PORT:8090}
+  context-path: /
+spring:
+  profiles:
+    active: ${SPRING_PROFILE:dev}
+  datasource:
+    url: ${SBS_ME_DATASOURCE:jdbc:postgresql://localhost:5432/test-db?currentSchema=syli}
+    username: ${SBS_ME_USER:postgres}
+    password: ${SBS_ME_PASSWORD:kond3579}
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      maximum-pool-size: 10
+      idle-timeout: 90000
+      minimum-idle: 2
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: false
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+  http:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+
+security:
+  token-urls:
+    - url: /api/v1/sbs/sftp/file
+#
+#environment:
+#  sbsApiMECurrentEnvironment: ${CURRENT_ENVIRONMENT}
