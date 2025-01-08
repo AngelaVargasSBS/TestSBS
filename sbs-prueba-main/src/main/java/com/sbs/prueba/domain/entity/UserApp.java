@@ -41,4 +41,7 @@ public class UserApp extends GeneralEntity {
     @Column(name = "codigo_front", updatable = false)
     private Integer frontCode;
 
+    @Column(name="codigo_rgb")
+    private String rgbCode;
+
 }
