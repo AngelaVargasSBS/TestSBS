@@ -5,7 +5,7 @@
 -- Dumped from database version 16.8 (Ubuntu 16.8-0ubuntu0.24.04.1)
 -- Dumped by pg_dump version 16.8 (Ubuntu 16.8-0ubuntu0.24.04.1)
 
--- Started on 2025-04-30 07:18:50 -05
+-- Started on 2025-04-30 07:30:02 -05
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -20,13 +20,11 @@ SET row_security = off;
 
 --
 -- TOC entry 9 (class 2615 OID 99336)
--- Name: syli; Type: SCHEMA; Schema: -; Owner: postgres
+-- Name: syli; Type: SCHEMA; Schema: -; Owner: -
 --
 
 CREATE SCHEMA syli;
 
-
-ALTER SCHEMA syli OWNER TO postgres;
 
 SET default_tablespace = '';
 
@@ -34,7 +32,7 @@ SET default_table_access_method = heap;
 
 --
 -- TOC entry 560 (class 1259 OID 99337)
--- Name: aplicacion; Type: TABLE; Schema: syli; Owner: postgres
+-- Name: aplicacion; Type: TABLE; Schema: syli; Owner: -
 --
 
 CREATE TABLE syli.aplicacion (
@@ -48,11 +46,9 @@ CREATE TABLE syli.aplicacion (
 );
 
 
-ALTER TABLE syli.aplicacion OWNER TO postgres;
-
 --
 -- TOC entry 561 (class 1259 OID 99341)
--- Name: modulo_app; Type: TABLE; Schema: syli; Owner: postgres
+-- Name: modulo_app; Type: TABLE; Schema: syli; Owner: -
 --
 
 CREATE TABLE syli.modulo_app (
@@ -70,11 +66,9 @@ CREATE TABLE syli.modulo_app (
 );
 
 
-ALTER TABLE syli.modulo_app OWNER TO postgres;
-
 --
 -- TOC entry 562 (class 1259 OID 99344)
--- Name: perfil_app; Type: TABLE; Schema: syli; Owner: postgres
+-- Name: perfil_app; Type: TABLE; Schema: syli; Owner: -
 --
 
 CREATE TABLE syli.perfil_app (
@@ -90,11 +84,9 @@ CREATE TABLE syli.perfil_app (
 );
 
 
-ALTER TABLE syli.perfil_app OWNER TO postgres;
-
 --
 -- TOC entry 563 (class 1259 OID 99350)
--- Name: persona; Type: TABLE; Schema: syli; Owner: postgres
+-- Name: persona; Type: TABLE; Schema: syli; Owner: -
 --
 
 CREATE TABLE syli.persona (
@@ -145,11 +137,9 @@ CREATE TABLE syli.persona (
 );
 
 
-ALTER TABLE syli.persona OWNER TO postgres;
-
 --
 -- TOC entry 564 (class 1259 OID 99357)
--- Name: persona_direccion; Type: TABLE; Schema: syli; Owner: postgres
+-- Name: persona_direccion; Type: TABLE; Schema: syli; Owner: -
 --
 
 CREATE TABLE syli.persona_direccion (
@@ -173,11 +163,9 @@ CREATE TABLE syli.persona_direccion (
 );
 
 
-ALTER TABLE syli.persona_direccion OWNER TO postgres;
-
 --
 -- TOC entry 565 (class 1259 OID 99361)
--- Name: persona_telefono; Type: TABLE; Schema: syli; Owner: postgres
+-- Name: persona_telefono; Type: TABLE; Schema: syli; Owner: -
 --
 
 CREATE TABLE syli.persona_telefono (
@@ -192,11 +180,9 @@ CREATE TABLE syli.persona_telefono (
 );
 
 
-ALTER TABLE syli.persona_telefono OWNER TO postgres;
-
 --
 -- TOC entry 566 (class 1259 OID 99365)
--- Name: tp_actividad_economica; Type: TABLE; Schema: syli; Owner: postgres
+-- Name: tp_actividad_economica; Type: TABLE; Schema: syli; Owner: -
 --
 
 CREATE TABLE syli.tp_actividad_economica (
@@ -207,11 +193,9 @@ CREATE TABLE syli.tp_actividad_economica (
 );
 
 
-ALTER TABLE syli.tp_actividad_economica OWNER TO postgres;
-
 --
 -- TOC entry 567 (class 1259 OID 99368)
--- Name: tp_actividad_economica_h; Type: TABLE; Schema: syli; Owner: postgres
+-- Name: tp_actividad_economica_h; Type: TABLE; Schema: syli; Owner: -
 --
 
 CREATE TABLE syli.tp_actividad_economica_h (
@@ -223,11 +207,9 @@ CREATE TABLE syli.tp_actividad_economica_h (
 );
 
 
-ALTER TABLE syli.tp_actividad_economica_h OWNER TO postgres;
-
 --
 -- TOC entry 568 (class 1259 OID 99372)
--- Name: tp_calle; Type: TABLE; Schema: syli; Owner: postgres
+-- Name: tp_calle; Type: TABLE; Schema: syli; Owner: -
 --
 
 CREATE TABLE syli.tp_calle (
@@ -239,11 +221,9 @@ CREATE TABLE syli.tp_calle (
 );
 
 
-ALTER TABLE syli.tp_calle OWNER TO postgres;
-
 --
 -- TOC entry 569 (class 1259 OID 99376)
--- Name: tp_dir_barrio; Type: TABLE; Schema: syli; Owner: postgres
+-- Name: tp_dir_barrio; Type: TABLE; Schema: syli; Owner: -
 --
 
 CREATE TABLE syli.tp_dir_barrio (
@@ -254,11 +234,9 @@ CREATE TABLE syli.tp_dir_barrio (
 );
 
 
-ALTER TABLE syli.tp_dir_barrio OWNER TO postgres;
-
 --
 -- TOC entry 570 (class 1259 OID 99380)
--- Name: tp_dir_cuadrante; Type: TABLE; Schema: syli; Owner: postgres
+-- Name: tp_dir_cuadrante; Type: TABLE; Schema: syli; Owner: -
 --
 
 CREATE TABLE syli.tp_dir_cuadrante (
@@ -270,11 +248,9 @@ CREATE TABLE syli.tp_dir_cuadrante (
 );
 
 
-ALTER TABLE syli.tp_dir_cuadrante OWNER TO postgres;
-
 --
 -- TOC entry 571 (class 1259 OID 99384)
--- Name: tp_dir_manzana; Type: TABLE; Schema: syli; Owner: postgres
+-- Name: tp_dir_manzana; Type: TABLE; Schema: syli; Owner: -
 --
 
 CREATE TABLE syli.tp_dir_manzana (
@@ -285,11 +261,9 @@ CREATE TABLE syli.tp_dir_manzana (
 );
 
 
-ALTER TABLE syli.tp_dir_manzana OWNER TO postgres;
-
 --
 -- TOC entry 572 (class 1259 OID 99388)
--- Name: tp_dir_predio; Type: TABLE; Schema: syli; Owner: postgres
+-- Name: tp_dir_predio; Type: TABLE; Schema: syli; Owner: -
 --
 
 CREATE TABLE syli.tp_dir_predio (
@@ -300,11 +274,9 @@ CREATE TABLE syli.tp_dir_predio (
 );
 
 
-ALTER TABLE syli.tp_dir_predio OWNER TO postgres;
-
 --
 -- TOC entry 573 (class 1259 OID 99392)
--- Name: tp_direccion; Type: TABLE; Schema: syli; Owner: postgres
+-- Name: tp_direccion; Type: TABLE; Schema: syli; Owner: -
 --
 
 CREATE TABLE syli.tp_direccion (
@@ -317,11 +289,9 @@ CREATE TABLE syli.tp_direccion (
 );
 
 
-ALTER TABLE syli.tp_direccion OWNER TO postgres;
-
 --
 -- TOC entry 574 (class 1259 OID 99397)
--- Name: tp_estado_civil; Type: TABLE; Schema: syli; Owner: postgres
+-- Name: tp_estado_civil; Type: TABLE; Schema: syli; Owner: -
 --
 
 CREATE TABLE syli.tp_estado_civil (
@@ -332,11 +302,9 @@ CREATE TABLE syli.tp_estado_civil (
 );
 
 
-ALTER TABLE syli.tp_estado_civil OWNER TO postgres;
-
 --
 -- TOC entry 575 (class 1259 OID 99401)
--- Name: tp_ipc; Type: TABLE; Schema: syli; Owner: postgres
+-- Name: tp_ipc; Type: TABLE; Schema: syli; Owner: -
 --
 
 CREATE TABLE syli.tp_ipc (
@@ -351,11 +319,9 @@ CREATE TABLE syli.tp_ipc (
 );
 
 
-ALTER TABLE syli.tp_ipc OWNER TO postgres;
-
 --
 -- TOC entry 576 (class 1259 OID 99404)
--- Name: tp_moneda; Type: TABLE; Schema: syli; Owner: postgres
+-- Name: tp_moneda; Type: TABLE; Schema: syli; Owner: -
 --
 
 CREATE TABLE syli.tp_moneda (
@@ -369,11 +335,9 @@ CREATE TABLE syli.tp_moneda (
 );
 
 
-ALTER TABLE syli.tp_moneda OWNER TO postgres;
-
 --
 -- TOC entry 577 (class 1259 OID 99408)
--- Name: tp_origen; Type: TABLE; Schema: syli; Owner: postgres
+-- Name: tp_origen; Type: TABLE; Schema: syli; Owner: -
 --
 
 CREATE TABLE syli.tp_origen (
@@ -384,11 +348,9 @@ CREATE TABLE syli.tp_origen (
 );
 
 
-ALTER TABLE syli.tp_origen OWNER TO postgres;
-
 --
 -- TOC entry 578 (class 1259 OID 99412)
--- Name: tp_pais; Type: TABLE; Schema: syli; Owner: postgres
+-- Name: tp_pais; Type: TABLE; Schema: syli; Owner: -
 --
 
 CREATE TABLE syli.tp_pais (
@@ -407,11 +369,9 @@ CREATE TABLE syli.tp_pais (
 );
 
 
-ALTER TABLE syli.tp_pais OWNER TO postgres;
-
 --
 -- TOC entry 579 (class 1259 OID 99418)
--- Name: tp_telefono; Type: TABLE; Schema: syli; Owner: postgres
+-- Name: tp_telefono; Type: TABLE; Schema: syli; Owner: -
 --
 
 CREATE TABLE syli.tp_telefono (
@@ -423,11 +383,9 @@ CREATE TABLE syli.tp_telefono (
 );
 
 
-ALTER TABLE syli.tp_telefono OWNER TO postgres;
-
 --
 -- TOC entry 580 (class 1259 OID 99422)
--- Name: tp_transaccion; Type: TABLE; Schema: syli; Owner: postgres
+-- Name: tp_transaccion; Type: TABLE; Schema: syli; Owner: -
 --
 
 CREATE TABLE syli.tp_transaccion (
@@ -441,11 +399,9 @@ CREATE TABLE syli.tp_transaccion (
 );
 
 
-ALTER TABLE syli.tp_transaccion OWNER TO postgres;
-
 --
 -- TOC entry 581 (class 1259 OID 99425)
--- Name: tp_zonas; Type: TABLE; Schema: syli; Owner: postgres
+-- Name: tp_zonas; Type: TABLE; Schema: syli; Owner: -
 --
 
 CREATE TABLE syli.tp_zonas (
@@ -457,11 +413,9 @@ CREATE TABLE syli.tp_zonas (
 );
 
 
-ALTER TABLE syli.tp_zonas OWNER TO postgres;
-
 --
 -- TOC entry 582 (class 1259 OID 99429)
--- Name: usuario_app; Type: TABLE; Schema: syli; Owner: postgres
+-- Name: usuario_app; Type: TABLE; Schema: syli; Owner: -
 --
 
 CREATE TABLE syli.usuario_app (
@@ -479,12 +433,10 @@ CREATE TABLE syli.usuario_app (
 );
 
 
-ALTER TABLE syli.usuario_app OWNER TO postgres;
-
 --
 -- TOC entry 4729 (class 0 OID 99337)
 -- Dependencies: 560
--- Data for Name: aplicacion; Type: TABLE DATA; Schema: syli; Owner: postgres
+-- Data for Name: aplicacion; Type: TABLE DATA; Schema: syli; Owner: -
 --
 
 INSERT INTO syli.aplicacion VALUES (3, 'Copropiedades - Pymes', 'CP', true, '2021-12-01 00:58:55.766902', NULL, 2);
@@ -497,7 +449,7 @@ INSERT INTO syli.aplicacion VALUES (1, 'Mercadeo Empresarial', 'MS', true, '2022
 --
 -- TOC entry 4730 (class 0 OID 99341)
 -- Dependencies: 561
--- Data for Name: modulo_app; Type: TABLE DATA; Schema: syli; Owner: postgres
+-- Data for Name: modulo_app; Type: TABLE DATA; Schema: syli; Owner: -
 --
 
 INSERT INTO syli.modulo_app VALUES (5, 1, 'Plataforma SBS', 'PlataformaSBS.png', 'Plataforma SBS', false, NULL, NULL, NULL, NULL, NULL);
@@ -511,7 +463,7 @@ INSERT INTO syli.modulo_app VALUES (1, 10, 'MODULO ADMINISTRADOR', 'reports_Icon
 --
 -- TOC entry 4731 (class 0 OID 99344)
 -- Dependencies: 562
--- Data for Name: perfil_app; Type: TABLE DATA; Schema: syli; Owner: postgres
+-- Data for Name: perfil_app; Type: TABLE DATA; Schema: syli; Owner: -
 --
 
 INSERT INTO syli.perfil_app VALUES (2, 5, 'Modyo', true, NULL, NULL, false, false, true);
@@ -539,7 +491,7 @@ INSERT INTO syli.perfil_app VALUES (1, 2, 'Reportes ME', true, '2022-11-02 00:59
 --
 -- TOC entry 4732 (class 0 OID 99350)
 -- Dependencies: 563
--- Data for Name: persona; Type: TABLE DATA; Schema: syli; Owner: postgres
+-- Data for Name: persona; Type: TABLE DATA; Schema: syli; Owner: -
 --
 
 INSERT INTO syli.persona VALUES (1, '1128266194', NULL, NULL, NULL, 'CARLOS', 'TABORDA', NULL, 'CARLOS TABORDA', 2, '1981-06-20', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2023-07-25', NULL, NULL, NULL, NULL, '2023-04-04 18:51:21.239702', '2023-07-25 07:52:17.311543', NULL, NULL, '2023-04-04 18:51:21.239702', NULL, NULL, NULL, NULL, NULL);
@@ -550,7 +502,7 @@ INSERT INTO syli.persona VALUES (1, '1032477633', 1, '2014-01-17', NULL, 'NICOLA
 --
 -- TOC entry 4733 (class 0 OID 99357)
 -- Dependencies: 564
--- Data for Name: persona_direccion; Type: TABLE DATA; Schema: syli; Owner: postgres
+-- Data for Name: persona_direccion; Type: TABLE DATA; Schema: syli; Owner: -
 --
 
 INSERT INTO syli.persona_direccion VALUES (1, '1010003199', 1, 'CALLE 63  18 N 28  CASA', NULL, NULL, 'CO', '11', '11001', NULL, NULL, NULL, NULL, 7, NULL, '2024-03-07 14:02:34.242', true);
@@ -560,7 +512,7 @@ INSERT INTO syli.persona_direccion VALUES (1, '1032477633', 1, 'CALLE 50 sur 0 e
 --
 -- TOC entry 4734 (class 0 OID 99361)
 -- Dependencies: 565
--- Data for Name: persona_telefono; Type: TABLE DATA; Schema: syli; Owner: postgres
+-- Data for Name: persona_telefono; Type: TABLE DATA; Schema: syli; Owner: -
 --
 
 INSERT INTO syli.persona_telefono VALUES (1, '1032477633', 1, '3188707955', 'CO', 7, '2023-07-24 16:57:08.345929', NULL);
@@ -573,7 +525,7 @@ INSERT INTO syli.persona_telefono VALUES (1, '1010003199', 14, 'angie.forero@sbs
 --
 -- TOC entry 4735 (class 0 OID 99365)
 -- Dependencies: 566
--- Data for Name: tp_actividad_economica; Type: TABLE DATA; Schema: syli; Owner: postgres
+-- Data for Name: tp_actividad_economica; Type: TABLE DATA; Schema: syli; Owner: -
 --
 
 INSERT INTO syli.tp_actividad_economica VALUES ('0010', 'ASALARIADOS', NULL, NULL);
@@ -1082,7 +1034,7 @@ INSERT INTO syli.tp_actividad_economica VALUES ('9529', 'MANTENIMIENTO Y REPARAC
 --
 -- TOC entry 4736 (class 0 OID 99368)
 -- Dependencies: 567
--- Data for Name: tp_actividad_economica_h; Type: TABLE DATA; Schema: syli; Owner: postgres
+-- Data for Name: tp_actividad_economica_h; Type: TABLE DATA; Schema: syli; Owner: -
 --
 
 INSERT INTO syli.tp_actividad_economica_h VALUES ('0010', '0010', 'ASALARIADOS', '2019-10-08 20:51:16.731366', NULL);
@@ -1548,7 +1500,7 @@ INSERT INTO syli.tp_actividad_economica_h VALUES ('9512', '5272', 'MANTENIMIENTO
 --
 -- TOC entry 4737 (class 0 OID 99372)
 -- Dependencies: 568
--- Data for Name: tp_calle; Type: TABLE DATA; Schema: syli; Owner: postgres
+-- Data for Name: tp_calle; Type: TABLE DATA; Schema: syli; Owner: -
 --
 
 INSERT INTO syli.tp_calle VALUES (5, 'AVENIDA', NULL, NULL, true);
@@ -1567,7 +1519,7 @@ INSERT INTO syli.tp_calle VALUES (7, 'AUTOPISTA', NULL, NULL, true);
 --
 -- TOC entry 4738 (class 0 OID 99376)
 -- Dependencies: 569
--- Data for Name: tp_dir_barrio; Type: TABLE DATA; Schema: syli; Owner: postgres
+-- Data for Name: tp_dir_barrio; Type: TABLE DATA; Schema: syli; Owner: -
 --
 
 INSERT INTO syli.tp_dir_barrio VALUES ('BR', 'BARRIO', '2020-02-25 19:31:00.110621', NULL);
@@ -1578,7 +1530,7 @@ INSERT INTO syli.tp_dir_barrio VALUES ('SM', 'SUPERMANZANA', '2020-02-25 19:31:0
 --
 -- TOC entry 4739 (class 0 OID 99380)
 -- Dependencies: 570
--- Data for Name: tp_dir_cuadrante; Type: TABLE DATA; Schema: syli; Owner: postgres
+-- Data for Name: tp_dir_cuadrante; Type: TABLE DATA; Schema: syli; Owner: -
 --
 
 INSERT INTO syli.tp_dir_cuadrante VALUES (1, 'NORTE', 'N', '2020-02-25 19:31:00.09238', NULL);
@@ -1590,7 +1542,7 @@ INSERT INTO syli.tp_dir_cuadrante VALUES (4, 'OESTE', 'O', '2020-02-25 19:31:00.
 --
 -- TOC entry 4740 (class 0 OID 99384)
 -- Dependencies: 571
--- Data for Name: tp_dir_manzana; Type: TABLE DATA; Schema: syli; Owner: postgres
+-- Data for Name: tp_dir_manzana; Type: TABLE DATA; Schema: syli; Owner: -
 --
 
 INSERT INTO syli.tp_dir_manzana VALUES ('BQ', 'BLOQUE', '2020-02-25 19:31:00.153525', NULL);
@@ -1606,7 +1558,7 @@ INSERT INTO syli.tp_dir_manzana VALUES ('ZN', 'ZONA', '2020-02-25 19:31:00.15352
 --
 -- TOC entry 4741 (class 0 OID 99388)
 -- Dependencies: 572
--- Data for Name: tp_dir_predio; Type: TABLE DATA; Schema: syli; Owner: postgres
+-- Data for Name: tp_dir_predio; Type: TABLE DATA; Schema: syli; Owner: -
 --
 
 INSERT INTO syli.tp_dir_predio VALUES ('MZ', 'MANZANA', '2020-02-25 19:31:00.173753', NULL);
@@ -1621,7 +1573,7 @@ INSERT INTO syli.tp_dir_predio VALUES ('TO', 'TORRE', '2020-02-25 19:31:00.17375
 --
 -- TOC entry 4742 (class 0 OID 99392)
 -- Dependencies: 573
--- Data for Name: tp_direccion; Type: TABLE DATA; Schema: syli; Owner: postgres
+-- Data for Name: tp_direccion; Type: TABLE DATA; Schema: syli; Owner: -
 --
 
 INSERT INTO syli.tp_direccion VALUES (1, 'DOMICILIO', 'DOM', '2019-08-28 21:23:11.082566', NULL, false);
@@ -1643,7 +1595,7 @@ INSERT INTO syli.tp_direccion VALUES (14, 'LABORAL', 'LAB', '2019-08-28 21:23:11
 --
 -- TOC entry 4743 (class 0 OID 99397)
 -- Dependencies: 574
--- Data for Name: tp_estado_civil; Type: TABLE DATA; Schema: syli; Owner: postgres
+-- Data for Name: tp_estado_civil; Type: TABLE DATA; Schema: syli; Owner: -
 --
 
 INSERT INTO syli.tp_estado_civil VALUES (1, 'SOLTERO', '2019-08-28 21:23:10.835482', NULL);
@@ -1659,7 +1611,7 @@ INSERT INTO syli.tp_estado_civil VALUES (0, 'NO INFORMADO', '2020-07-02 04:05:48
 --
 -- TOC entry 4744 (class 0 OID 99401)
 -- Dependencies: 575
--- Data for Name: tp_ipc; Type: TABLE DATA; Schema: syli; Owner: postgres
+-- Data for Name: tp_ipc; Type: TABLE DATA; Schema: syli; Owner: -
 --
 
 INSERT INTO syli.tp_ipc VALUES (1967, 12, 0, 7.9000, 7.9000, 7.9000, NULL, NULL);
@@ -1845,7 +1797,7 @@ INSERT INTO syli.tp_ipc VALUES (2021, 12, 105.62, 0.3600, 5.6200, 5.6200, NULL, 
 --
 -- TOC entry 4745 (class 0 OID 99404)
 -- Dependencies: 576
--- Data for Name: tp_moneda; Type: TABLE DATA; Schema: syli; Owner: postgres
+-- Data for Name: tp_moneda; Type: TABLE DATA; Schema: syli; Owner: -
 --
 
 INSERT INTO syli.tp_moneda VALUES (0, '$', 'PESOS', 4, 'COP', '2019-08-28 21:23:11.338221', NULL);
@@ -1869,7 +1821,7 @@ INSERT INTO syli.tp_moneda VALUES (17, 'DC', 'DOLAR CANADIENSE', 4, 'CAD', '2019
 --
 -- TOC entry 4746 (class 0 OID 99408)
 -- Dependencies: 577
--- Data for Name: tp_origen; Type: TABLE DATA; Schema: syli; Owner: postgres
+-- Data for Name: tp_origen; Type: TABLE DATA; Schema: syli; Owner: -
 --
 
 INSERT INTO syli.tp_origen VALUES (8, 'or8', '2024-05-31 10:10:32.701091', NULL);
@@ -1884,7 +1836,7 @@ INSERT INTO syli.tp_origen VALUES (1, 'or1', '2020-01-29 20:30:58.216245', NULL)
 --
 -- TOC entry 4747 (class 0 OID 99412)
 -- Dependencies: 578
--- Data for Name: tp_pais; Type: TABLE DATA; Schema: syli; Owner: postgres
+-- Data for Name: tp_pais; Type: TABLE DATA; Schema: syli; Owner: -
 --
 
 INSERT INTO syli.tp_pais VALUES ('MF', 'SAN MARTÍN (PARTE FRANCESA)', 0, 198, '2019-11-20 19:58:51.462483', NULL, false, '663', '', 'MAF', '663', false);
@@ -2147,7 +2099,7 @@ INSERT INTO syli.tp_pais VALUES ('SX', 'SAN MARTÍN (PARTE HOLANDESA)', 0, 0, '2
 --
 -- TOC entry 4748 (class 0 OID 99418)
 -- Dependencies: 579
--- Data for Name: tp_telefono; Type: TABLE DATA; Schema: syli; Owner: postgres
+-- Data for Name: tp_telefono; Type: TABLE DATA; Schema: syli; Owner: -
 --
 
 INSERT INTO syli.tp_telefono VALUES (1, 'CELULAR', 'CEL', '2019-08-28 21:26:03.255033', NULL);
@@ -2171,7 +2123,7 @@ INSERT INTO syli.tp_telefono VALUES (16, 'LABORAL', 'LAB', '2019-08-28 21:26:03.
 --
 -- TOC entry 4749 (class 0 OID 99422)
 -- Dependencies: 580
--- Data for Name: tp_transaccion; Type: TABLE DATA; Schema: syli; Owner: postgres
+-- Data for Name: tp_transaccion; Type: TABLE DATA; Schema: syli; Owner: -
 --
 
 INSERT INTO syli.tp_transaccion VALUES (1, 1, 1, 1, 'Cotización Póliza Nueva', '2023-02-05 22:42:16.819734', '2023-11-09 17:19:08.186328');
@@ -2191,7 +2143,7 @@ INSERT INTO syli.tp_transaccion VALUES (1, 12, 1, 1, 'Ingreso a la parametrizaci
 --
 -- TOC entry 4750 (class 0 OID 99425)
 -- Dependencies: 581
--- Data for Name: tp_zonas; Type: TABLE DATA; Schema: syli; Owner: postgres
+-- Data for Name: tp_zonas; Type: TABLE DATA; Schema: syli; Owner: -
 --
 
 INSERT INTO syli.tp_zonas VALUES (1, 1, 'ZONA BOGOTA', '2020-01-29 20:30:57.295061', NULL);
@@ -2221,7 +2173,7 @@ INSERT INTO syli.tp_zonas VALUES (3, 17, 'ZONE 17 - Villavicencio', '2022-03-30 
 --
 -- TOC entry 4751 (class 0 OID 99429)
 -- Dependencies: 582
--- Data for Name: usuario_app; Type: TABLE DATA; Schema: syli; Owner: postgres
+-- Data for Name: usuario_app; Type: TABLE DATA; Schema: syli; Owner: -
 --
 
 INSERT INTO syli.usuario_app VALUES (1, 1026, 1, 1, '1032477633', true, 'NICOLAS RIVERA GOMEZ', '', '2023-04-04 18:40:51.719889', '2023-07-25 08:41:26.896426', 1);
@@ -2231,7 +2183,7 @@ INSERT INTO syli.usuario_app VALUES (1, 1028, 1, 1, '1128266194', true, 'CARLOS 
 
 --
 -- TOC entry 4516 (class 2606 OID 99435)
--- Name: aplicacion pk_aplicacion; Type: CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: aplicacion pk_aplicacion; Type: CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.aplicacion
@@ -2240,7 +2192,7 @@ ALTER TABLE ONLY syli.aplicacion
 
 --
 -- TOC entry 4518 (class 2606 OID 99437)
--- Name: modulo_app pk_modulo_app; Type: CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: modulo_app pk_modulo_app; Type: CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.modulo_app
@@ -2249,7 +2201,7 @@ ALTER TABLE ONLY syli.modulo_app
 
 --
 -- TOC entry 4520 (class 2606 OID 99439)
--- Name: perfil_app pk_perfil_app; Type: CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: perfil_app pk_perfil_app; Type: CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.perfil_app
@@ -2258,7 +2210,7 @@ ALTER TABLE ONLY syli.perfil_app
 
 --
 -- TOC entry 4522 (class 2606 OID 99441)
--- Name: persona pk_persona; Type: CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: persona pk_persona; Type: CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.persona
@@ -2267,7 +2219,7 @@ ALTER TABLE ONLY syli.persona
 
 --
 -- TOC entry 4524 (class 2606 OID 99443)
--- Name: persona_direccion pk_persona_direccion; Type: CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: persona_direccion pk_persona_direccion; Type: CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.persona_direccion
@@ -2276,7 +2228,7 @@ ALTER TABLE ONLY syli.persona_direccion
 
 --
 -- TOC entry 4526 (class 2606 OID 99445)
--- Name: persona_telefono pk_persona_telefono; Type: CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: persona_telefono pk_persona_telefono; Type: CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.persona_telefono
@@ -2285,7 +2237,7 @@ ALTER TABLE ONLY syli.persona_telefono
 
 --
 -- TOC entry 4528 (class 2606 OID 99447)
--- Name: tp_actividad_economica pk_tp_actividad_economica; Type: CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: tp_actividad_economica pk_tp_actividad_economica; Type: CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.tp_actividad_economica
@@ -2294,7 +2246,7 @@ ALTER TABLE ONLY syli.tp_actividad_economica
 
 --
 -- TOC entry 4530 (class 2606 OID 99449)
--- Name: tp_actividad_economica_h pk_tp_actividad_economica_h; Type: CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: tp_actividad_economica_h pk_tp_actividad_economica_h; Type: CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.tp_actividad_economica_h
@@ -2303,7 +2255,7 @@ ALTER TABLE ONLY syli.tp_actividad_economica_h
 
 --
 -- TOC entry 4532 (class 2606 OID 99451)
--- Name: tp_calle pk_tp_calle; Type: CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: tp_calle pk_tp_calle; Type: CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.tp_calle
@@ -2312,7 +2264,7 @@ ALTER TABLE ONLY syli.tp_calle
 
 --
 -- TOC entry 4534 (class 2606 OID 99453)
--- Name: tp_dir_barrio pk_tp_dir_barrio; Type: CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: tp_dir_barrio pk_tp_dir_barrio; Type: CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.tp_dir_barrio
@@ -2321,7 +2273,7 @@ ALTER TABLE ONLY syli.tp_dir_barrio
 
 --
 -- TOC entry 4536 (class 2606 OID 99455)
--- Name: tp_dir_cuadrante pk_tp_dir_cuadrante; Type: CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: tp_dir_cuadrante pk_tp_dir_cuadrante; Type: CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.tp_dir_cuadrante
@@ -2330,7 +2282,7 @@ ALTER TABLE ONLY syli.tp_dir_cuadrante
 
 --
 -- TOC entry 4538 (class 2606 OID 99457)
--- Name: tp_dir_manzana pk_tp_dir_manzana; Type: CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: tp_dir_manzana pk_tp_dir_manzana; Type: CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.tp_dir_manzana
@@ -2339,7 +2291,7 @@ ALTER TABLE ONLY syli.tp_dir_manzana
 
 --
 -- TOC entry 4540 (class 2606 OID 99459)
--- Name: tp_dir_predio pk_tp_dir_predio; Type: CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: tp_dir_predio pk_tp_dir_predio; Type: CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.tp_dir_predio
@@ -2348,7 +2300,7 @@ ALTER TABLE ONLY syli.tp_dir_predio
 
 --
 -- TOC entry 4542 (class 2606 OID 99461)
--- Name: tp_direccion pk_tp_direccion; Type: CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: tp_direccion pk_tp_direccion; Type: CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.tp_direccion
@@ -2357,7 +2309,7 @@ ALTER TABLE ONLY syli.tp_direccion
 
 --
 -- TOC entry 4544 (class 2606 OID 99463)
--- Name: tp_estado_civil pk_tp_estado_civil; Type: CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: tp_estado_civil pk_tp_estado_civil; Type: CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.tp_estado_civil
@@ -2366,7 +2318,7 @@ ALTER TABLE ONLY syli.tp_estado_civil
 
 --
 -- TOC entry 4546 (class 2606 OID 99465)
--- Name: tp_ipc pk_tp_ipc; Type: CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: tp_ipc pk_tp_ipc; Type: CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.tp_ipc
@@ -2375,7 +2327,7 @@ ALTER TABLE ONLY syli.tp_ipc
 
 --
 -- TOC entry 4548 (class 2606 OID 99467)
--- Name: tp_moneda pk_tp_moneda; Type: CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: tp_moneda pk_tp_moneda; Type: CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.tp_moneda
@@ -2384,7 +2336,7 @@ ALTER TABLE ONLY syli.tp_moneda
 
 --
 -- TOC entry 4550 (class 2606 OID 99469)
--- Name: tp_origen pk_tp_origen; Type: CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: tp_origen pk_tp_origen; Type: CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.tp_origen
@@ -2393,7 +2345,7 @@ ALTER TABLE ONLY syli.tp_origen
 
 --
 -- TOC entry 4552 (class 2606 OID 99471)
--- Name: tp_pais pk_tp_pais; Type: CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: tp_pais pk_tp_pais; Type: CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.tp_pais
@@ -2402,7 +2354,7 @@ ALTER TABLE ONLY syli.tp_pais
 
 --
 -- TOC entry 4554 (class 2606 OID 99473)
--- Name: tp_telefono pk_tp_telefono; Type: CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: tp_telefono pk_tp_telefono; Type: CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.tp_telefono
@@ -2411,7 +2363,7 @@ ALTER TABLE ONLY syli.tp_telefono
 
 --
 -- TOC entry 4556 (class 2606 OID 99475)
--- Name: tp_transaccion pk_tp_transaccion; Type: CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: tp_transaccion pk_tp_transaccion; Type: CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.tp_transaccion
@@ -2420,7 +2372,7 @@ ALTER TABLE ONLY syli.tp_transaccion
 
 --
 -- TOC entry 4558 (class 2606 OID 99477)
--- Name: tp_zonas pk_tp_zonas; Type: CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: tp_zonas pk_tp_zonas; Type: CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.tp_zonas
@@ -2429,7 +2381,7 @@ ALTER TABLE ONLY syli.tp_zonas
 
 --
 -- TOC entry 4560 (class 2606 OID 99479)
--- Name: usuario_app pk_usuario_app; Type: CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: usuario_app pk_usuario_app; Type: CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.usuario_app
@@ -2438,7 +2390,7 @@ ALTER TABLE ONLY syli.usuario_app
 
 --
 -- TOC entry 4562 (class 2606 OID 99481)
--- Name: usuario_app unique_usuario_front; Type: CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: usuario_app unique_usuario_front; Type: CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.usuario_app
@@ -2447,7 +2399,7 @@ ALTER TABLE ONLY syli.usuario_app
 
 --
 -- TOC entry 4564 (class 2606 OID 99483)
--- Name: usuario_app uq_app_usuario; Type: CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: usuario_app uq_app_usuario; Type: CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.usuario_app
@@ -2456,7 +2408,7 @@ ALTER TABLE ONLY syli.usuario_app
 
 --
 -- TOC entry 4565 (class 2606 OID 99484)
--- Name: modulo_app fk_modulo_app_app; Type: FK CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: modulo_app fk_modulo_app_app; Type: FK CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.modulo_app
@@ -2465,7 +2417,7 @@ ALTER TABLE ONLY syli.modulo_app
 
 --
 -- TOC entry 4566 (class 2606 OID 99489)
--- Name: perfil_app fk_perfil_app_app; Type: FK CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: perfil_app fk_perfil_app_app; Type: FK CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.perfil_app
@@ -2474,7 +2426,7 @@ ALTER TABLE ONLY syli.perfil_app
 
 --
 -- TOC entry 4567 (class 2606 OID 99494)
--- Name: persona fk_persona_actecon; Type: FK CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: persona fk_persona_actecon; Type: FK CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.persona
@@ -2483,7 +2435,7 @@ ALTER TABLE ONLY syli.persona
 
 --
 -- TOC entry 4570 (class 2606 OID 99499)
--- Name: persona_direccion fk_persona_dir; Type: FK CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: persona_direccion fk_persona_dir; Type: FK CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.persona_direccion
@@ -2492,7 +2444,7 @@ ALTER TABLE ONLY syli.persona_direccion
 
 --
 -- TOC entry 4568 (class 2606 OID 99504)
--- Name: persona fk_persona_estcivil; Type: FK CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: persona fk_persona_estcivil; Type: FK CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.persona
@@ -2501,7 +2453,7 @@ ALTER TABLE ONLY syli.persona
 
 --
 -- TOC entry 4573 (class 2606 OID 99509)
--- Name: persona_telefono fk_persona_paistel; Type: FK CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: persona_telefono fk_persona_paistel; Type: FK CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.persona_telefono
@@ -2510,7 +2462,7 @@ ALTER TABLE ONLY syli.persona_telefono
 
 --
 -- TOC entry 4571 (class 2606 OID 99514)
--- Name: persona_direccion fk_persona_tdir; Type: FK CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: persona_direccion fk_persona_tdir; Type: FK CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.persona_direccion
@@ -2519,7 +2471,7 @@ ALTER TABLE ONLY syli.persona_direccion
 
 --
 -- TOC entry 4574 (class 2606 OID 99519)
--- Name: persona_telefono fk_persona_tel; Type: FK CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: persona_telefono fk_persona_tel; Type: FK CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.persona_telefono
@@ -2528,7 +2480,7 @@ ALTER TABLE ONLY syli.persona_telefono
 
 --
 -- TOC entry 4575 (class 2606 OID 99524)
--- Name: persona_telefono fk_persona_telorig; Type: FK CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: persona_telefono fk_persona_telorig; Type: FK CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.persona_telefono
@@ -2537,7 +2489,7 @@ ALTER TABLE ONLY syli.persona_telefono
 
 --
 -- TOC entry 4576 (class 2606 OID 99529)
--- Name: persona_telefono fk_persona_teltipo; Type: FK CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: persona_telefono fk_persona_teltipo; Type: FK CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.persona_telefono
@@ -2546,7 +2498,7 @@ ALTER TABLE ONLY syli.persona_telefono
 
 --
 -- TOC entry 4572 (class 2606 OID 99534)
--- Name: persona_direccion fk_persona_torig; Type: FK CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: persona_direccion fk_persona_torig; Type: FK CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.persona_direccion
@@ -2555,7 +2507,7 @@ ALTER TABLE ONLY syli.persona_direccion
 
 --
 -- TOC entry 4569 (class 2606 OID 99539)
--- Name: persona fk_personap_torig; Type: FK CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: persona fk_personap_torig; Type: FK CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.persona
@@ -2564,7 +2516,7 @@ ALTER TABLE ONLY syli.persona
 
 --
 -- TOC entry 4577 (class 2606 OID 99544)
--- Name: tp_transaccion fk_tp_transaccion_app; Type: FK CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: tp_transaccion fk_tp_transaccion_app; Type: FK CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.tp_transaccion
@@ -2573,7 +2525,7 @@ ALTER TABLE ONLY syli.tp_transaccion
 
 --
 -- TOC entry 4578 (class 2606 OID 99549)
--- Name: tp_transaccion fk_tp_transaccion_modulo; Type: FK CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: tp_transaccion fk_tp_transaccion_modulo; Type: FK CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.tp_transaccion
@@ -2582,7 +2534,7 @@ ALTER TABLE ONLY syli.tp_transaccion
 
 --
 -- TOC entry 4579 (class 2606 OID 99554)
--- Name: usuario_app fk_usuario_app_app; Type: FK CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: usuario_app fk_usuario_app_app; Type: FK CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.usuario_app
@@ -2591,7 +2543,7 @@ ALTER TABLE ONLY syli.usuario_app
 
 --
 -- TOC entry 4580 (class 2606 OID 99559)
--- Name: usuario_app fk_usuario_app_perfil; Type: FK CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: usuario_app fk_usuario_app_perfil; Type: FK CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.usuario_app
@@ -2600,16 +2552,15 @@ ALTER TABLE ONLY syli.usuario_app
 
 --
 -- TOC entry 4581 (class 2606 OID 99564)
--- Name: usuario_app fk_usuario_app_persona; Type: FK CONSTRAINT; Schema: syli; Owner: postgres
+-- Name: usuario_app fk_usuario_app_persona; Type: FK CONSTRAINT; Schema: syli; Owner: -
 --
 
 ALTER TABLE ONLY syli.usuario_app
     ADD CONSTRAINT fk_usuario_app_persona FOREIGN KEY (tipo_documento, numero_documento) REFERENCES syli.persona(tipo_documento, numero_documento);
 
 
--- Completed on 2025-04-30 07:18:50 -05
+-- Completed on 2025-04-30 07:30:02 -05
 
 --
 -- PostgreSQL database dump complete
 --
-
